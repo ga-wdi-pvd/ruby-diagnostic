@@ -15,14 +15,14 @@ or the language specified after them.
 What command you would use to run a script at `example.rb`?
 
  ```text
- # Your answer here
+ Your answer here
  ```
 
 ### Question 2
 What is the command alternative to `irb` you would use to enter the REPL?
 
  ```text
- # Your answer here
+ Your answer here
  ```
 
 ### Question 3
@@ -49,13 +49,13 @@ Write your code here:
 What is the type of object in Ruby for decimal numbers?
 
  ```text
- # Your answer here
+ Your answer here
  ```
 #### Part 2:
 What is the type of object in Ruby for integer numbers?
 
  ```text
- # Your answer here
+ Your answer here
  ```
 
 ###  Question 6
@@ -69,7 +69,7 @@ numbers = ["decimal", "integer"]
 What are ALL the values that evaluate to "falsy" in Ruby?
 
  ```text
- # Your answer here
+ Your answer here
  ```
 
 ###  Question 8
@@ -87,20 +87,20 @@ end
 What will be the return value? Why?
 
  ```text
- # Your answer here
+ Your answer here
  ```
 ###  Question 9
 What keyword would you use for "else if" clauses in Ruby?
 
  ```text
- # Your answer here
+ Your answer here
  ```
 
 ###  Question 10
 Does ruby require an explicit return from methods? Explain.
 
  ```text
- # Your answer here
+ Your answer here
  ```
 
 ###  Question 11
@@ -126,7 +126,7 @@ arr[arr.length + 2] = 99
 Write your answer here:
 
  ```text
- # Your answer here
+ Your answer here
  ```
 
 ### Question 12
