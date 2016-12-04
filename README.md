@@ -1,49 +1,81 @@
-# ruby-diagnostic
+# Ruby Diagnostic
 
-# Question 1
-## What command you would use to run a script at `example.rb`?
+## Instructions
 
- `your response here`
+1. Fork this repo
+2. Clone your fork
+3. Fill in your answers by writing in the appropriate area.
+4. Add/Commit/Push your changes to Github.
+5. Open a pull request.
 
-# Question 2
-## What is the command alternative to `irb` you would use to enter the REPL?
+**Note**: Only place your answer between backticks. Don't modify the backticks,
+or the language specified after them.
 
-`your response here`
+### Question 1
+What command you would use to run a script at `example.rb`?
 
-# Question 3
-## How would you assign "Rogue One: A Star Wars Story" to a variable with more than one word?
+ ```text
+ Your answer here
+ ```
 
-`your response here`
+### Question 2
+What is the command alternative to `irb` you would use to enter the REPL?
 
-# Question 3
-## Use string interpolation to complete the sentence below. Replace "ANSWER" with the correct code.
+ ```text
+ Your answer here
+ ```
 
+### Question 3
+How would you assign "Rogue One: A Star Wars Story" to a variable with more than one word?
+
+ ```ruby
+ # Your code here
+ ```
+
+### Question 4
+Use string interpolation to tell the world the below character `is really a Sith Lord`.
+```ruby
 character = "Jar Jar Binks"
+```
 
-`ANSWER is really a Sith Lord.`
+Write your code here:
 
-# Question 4
-## What is the type of object in Ruby for decimal numbers?
+```ruby
+# your code here
+```
 
-`your response here`
+###  Question 5
+#### Part 1:
+What is the type of object in Ruby for decimal numbers?
 
-# Question 5
-## What is the type of object in Ruby for integer numbers?
+ ```text
+ Your answer here
+ ```
+#### Part 2:
+What is the type of object in Ruby for integer numbers?
 
-`your response here`
+ ```text
+ Your answer here
+ ```
 
-# Question 6
-## Write an example of a decimal and an integer in Ruby. Replace the array values with your examples.
+###  Question 6
+Write an example of a decimal and an integer in Ruby. Replace the array values with your examples.
 
-`numbers = ["decimal", "integer"]`
+```ruby
+numbers = ["decimal", "integer"]
+```
 
-# Question 7
-## What are ALL the values that evaluate to "falsy" in Ruby?
-`your response here`
+### Question 7
+What are ALL the values that evaluate to "falsy" in Ruby?
 
-# Question 8
-# Examine the following code.
+ ```text
+ Your answer here
+ ```
 
+###  Question 8
+Examine the following code.
+
+ ```ruby
 batman = 'Bruce Wayne'
 
 if batman
@@ -51,40 +83,64 @@ if batman
 else
   'Just your average billionaire'
 end
+```
+What will be the return value? Why?
 
-# What will be the return value? Why?
+ ```text
+ Your answer here
+ ```
+###  Question 9
+What keyword would you use for "else if" clauses in Ruby?
 
-`your response here`
+ ```text
+ Your answer here
+ ```
 
-# Question 9
-## What keyword would you use for "else if" clauses in Ruby?
+###  Question 10
+Does ruby require an explicit return from methods? Explain.
 
-`your response here`
+ ```text
+ Your answer here
+ ```
 
-# Question 10
-## Does ruby require an explicit return from methods? Explain.
+###  Question 11
+#### Part 1:
+How would you remove the last two elements from the below array?
 
-`your response here`
-
-# Question 11
-## Given the following array:
-
+ ```ruby
 arr = [12, 34, 56, 67]
+ ```
 
-## How would you remove the last two elements from this array
+Write your code here:
 
-`your answer here`
+```ruby
+# your code here
+```
 
-## Taking the result from the question above, what would `arr` now equal: `arr[arr.length + 2] = 99`
+#### Part 2:
+Taking the result from the part 1, what are the `arr` values if:
+```ruby
+arr[arr.length + 2] = 99
+```
 
-`your answer here`
+Write your answer here:
 
-# Question 12
-## Instantiate a `person` hash with `age` and `first_name` as symbols and a number age and a first name as their respective values.
-## Use shorthand to make this one line long.
+ ```text
+ Your answer here
+ ```
 
-`your answer here`
+### Question 12
+#### Part 1:
+Instantiate a `person` hash with `age` and `first_name` as symbols and a number age and a first name as their respective values.
+Use shorthand to make this one line long.
 
-## Set a default return value to your `person` hash that concatenates the value of person[:first_name] and a message about them.
+ ```ruby
+# Your code here
+ ```
 
-`your answer here`
+#### Part 2:
+Set a default return value to your `person` hash that concatenates the value of person[:first_name] and a message about them.
+
+ ```ruby
+# Your code here
+ ```
