@@ -29,7 +29,7 @@ What is the command alternative to `irb` you would use to enter the REPL?
 How would you assign "Rogue One: A Star Wars Story" to a variable with more than one word?
 
  ```ruby
- # Your code here
+# Your answer here
  ```
 
 ### Question 4
@@ -38,10 +38,10 @@ Use string interpolation to tell the world the below character `is really a Sith
 character = "Jar Jar Binks"
 ```
 
-Write your code here:
+Write your code below:
 
 ```ruby
-# your code here
+# Your answer here
 ```
 
 ###  Question 5
@@ -66,7 +66,7 @@ numbers = ["decimal", "integer"]
 ```
 
 ### Question 7
-What are ALL the values that evaluate to "falsy" in Ruby?
+What are the values that evaluate to "falsy" in Ruby?
 
  ```text
  Your answer here
@@ -76,12 +76,12 @@ What are ALL the values that evaluate to "falsy" in Ruby?
 Examine the following code.
 
  ```ruby
-batman = 'Bruce Wayne'
+batman = "Bruce Wayne"
 
 if batman
-  'The Dark Knight'
+  "The Dark Knight"
 else
-  'Just your average billionaire'
+  "Just your average billionaire"
 end
 ```
 What will be the return value? Why?
@@ -97,13 +97,21 @@ What keyword would you use for "else if" clauses in Ruby?
  ```
 
 ###  Question 10
-Does ruby require an explicit return from methods? Explain.
+Does Ruby require an explicit return from methods? Explain.
 
  ```text
  Your answer here
  ```
 
 ###  Question 11
+ Instantiate a `person` hash with `age` and `first_name` as symbols and a number age and a first name as their respective values.
+Use shorthand to make this on one line.
+
+ ```ruby
+ # Your answer here
+ ```
+
+### Question 12
 #### Part 1:
 How would you remove the last two elements from the below array?
 
@@ -111,10 +119,10 @@ How would you remove the last two elements from the below array?
 arr = [12, 34, 56, 67]
  ```
 
-Write your code here:
+Write your code below:
 
 ```ruby
-# your code here
+# Your answer here
 ```
 
 #### Part 2:
@@ -123,24 +131,15 @@ Taking the result from the part 1, what are the `arr` values if:
 arr[arr.length + 2] = 99
 ```
 
-Write your answer here:
+Write your answer below:
 
- ```text
- Your answer here
- ```
+```text
+Your answer here
+```
 
-### Question 12
-#### Part 1:
-Instantiate a `person` hash with `age` and `first_name` as symbols and a number age and a first name as their respective values.
-Use shorthand to make this one line long.
+#### Part 3:
+Using `.each` and `puts`, produce the output of the array values:
 
  ```ruby
-# Your code here
- ```
-
-#### Part 2:
-Set a default return value to your `person` hash that concatenates the value of person[:first_name] and a message about them.
-
- ```ruby
-# Your code here
+#  Your answer here
  ```
