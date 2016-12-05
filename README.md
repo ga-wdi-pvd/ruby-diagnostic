@@ -19,14 +19,14 @@ What command you would use to run a script at `example.rb`?
  ```
 
 ### Question 2
-What is the command alternative to `irb` you would use to enter the REPL?
+What are the two commands to run and debug Ruby in the REPL?
 
  ```text
  Your answer here
  ```
 
 ### Question 3
-How would you assign "Rogue One: A Star Wars Story" to a variable with more than one word?
+How would you assign a star wars variable with a value of Rogue One: A Star Wars Story?
 
  ```ruby
 # Your answer here
