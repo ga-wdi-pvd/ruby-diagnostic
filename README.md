@@ -19,7 +19,7 @@ What command you would use to run a script at `example.rb`?
  ```
 
 ### Question 2
-What are the two commands to run and debug Ruby in the REPL?
+What is the alternative command to `irb` you would use to run and debug Ruby in the REPL?
 
  ```text
  pry
