@@ -26,7 +26,7 @@ What is the alternative command to `irb` you would use to run and debug Ruby in 
  ```
 
 ### Question 3
-How would you assign a star wars variable with a value of Rogue One: A Star Wars Story?
+How would you assign a `star wars` variable with a value of `Rogue One: A Star Wars Story`?
 
  ```ruby
 # Your answer here
