@@ -15,21 +15,22 @@ or the language specified after them.
 What command you would use to run a script at `example.rb`?
 
  ```text
- Your answer here
+ruby example.rb
  ```
 
 ### Question 2
 What is the alternative command to `irb` you would use to run and debug Ruby in the REPL?
 
  ```text
- Your answer here
+ require 'pry'
+ binding.pry
  ```
 
 ### Question 3
 How would you assign a `star wars` variable with a value of `Rogue One: A Star Wars Story`?
 
  ```ruby
-# Your answer here
+star_wars = 'Rogue One: A Star Wars Story'
  ```
 
 ### Question 4
@@ -41,7 +42,9 @@ character = "Jar Jar Binks"
 Write your code below:
 
 ```ruby
-# Your answer here
+character = "Jar Jar Binks"
+ending = "is really a Sith Lord"
+puts "#{character} #{ending}"
 ```
 
 ###  Question 5
@@ -49,27 +52,27 @@ Write your code below:
 What is the type of object in Ruby for decimal numbers?
 
  ```text
- Your answer here
+float
  ```
 #### Part 2:
 What is the type of object in Ruby for integer numbers?
 
  ```text
- Your answer here
+Fixnum
  ```
 
 ###  Question 6
 Write an example of a decimal and an integer in Ruby. Replace the array values with your examples.
 
 ```ruby
-numbers = ["decimal", "integer"]
+numbers = ["3.3", "3"]
 ```
 
 ### Question 7
 What are the values that evaluate to "falsy" in Ruby?
 
  ```text
- Your answer here
+nil and false
  ```
 
 ###  Question 8
@@ -87,20 +90,20 @@ end
 What will be the return value? Why?
 
  ```text
- Your answer here
+"The Dark Knight" because batman is not nil or false
  ```
 ###  Question 9
 What keyword would you use for "else if" clauses in Ruby?
 
  ```text
- Your answer here
+elsif
  ```
 
 ###  Question 10
 Does Ruby require an explicit return from methods? Explain.
 
  ```text
- Your answer here
+no, it will always return the last line of code in a block.
  ```
 
 ###  Question 11
@@ -108,8 +111,7 @@ Does Ruby require an explicit return from methods? Explain.
 Use shorthand to make this on one line.
 
  ```ruby
- # Your answer here
- ```
+matthew = Person.new(28, "Matthew") ```
 
 ### Question 12
 #### Part 1:
@@ -122,7 +124,7 @@ arr = [12, 34, 56, 67]
 Write your code below:
 
 ```ruby
-# Your answer here
+arr.slice!((arr.length - 2)..arr.length)
 ```
 
 #### Part 2:
@@ -134,12 +136,14 @@ arr[arr.length + 2] = 99
 Write your answer below:
 
 ```text
-Your answer here
+[12, 34, nil, nil, 99]
 ```
 
 #### Part 3:
 Using `.each` and `puts`, produce the output of the array values:
 
  ```ruby
-#  Your answer here
+arr.each do |item|
+  puts item
+end
  ```
