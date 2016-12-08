@@ -15,21 +15,21 @@ or the language specified after them.
 What command you would use to run a script at `example.rb`?
 
  ```text
- Your answer here
+ ruby example.rb
  ```
 
 ### Question 2
 What is the alternative command to `irb` you would use to run and debug Ruby in the REPL?
 
  ```text
- Your answer here
+pry
  ```
 
 ### Question 3
 How would you assign a `star wars` variable with a value of `Rogue One: A Star Wars Story`?
 
  ```ruby
-# Your answer here
+star_wars = 'Rogue One: A Star Wars Story'
  ```
 
 ### Question 4
@@ -41,7 +41,7 @@ character = "Jar Jar Binks"
 Write your code below:
 
 ```ruby
-# Your answer here
+puts "${character} is really a Sith Lord"
 ```
 
 ###  Question 5
@@ -49,27 +49,27 @@ Write your code below:
 What is the type of object in Ruby for decimal numbers?
 
  ```text
- Your answer here
+ Float
  ```
 #### Part 2:
 What is the type of object in Ruby for integer numbers?
 
  ```text
- Your answer here
+ Fixnum
  ```
 
 ###  Question 6
 Write an example of a decimal and an integer in Ruby. Replace the array values with your examples.
 
 ```ruby
-numbers = ["decimal", "integer"]
+numbers = ["0.5", "10"]
 ```
 
 ### Question 7
 What are the values that evaluate to "falsy" in Ruby?
 
  ```text
- Your answer here
+ nil and false
  ```
 
 ###  Question 8
@@ -87,20 +87,20 @@ end
 What will be the return value? Why?
 
  ```text
- Your answer here
+ "The Dark Knight" because the value in the batman variable is being replaced by "The Dark Knight"
  ```
 ###  Question 9
 What keyword would you use for "else if" clauses in Ruby?
 
  ```text
- Your answer here
+ def
  ```
 
 ###  Question 10
 Does Ruby require an explicit return from methods? Explain.
 
  ```text
- Your answer here
+ No, Ruby does not require an explicit return from methods because if the function expects a value to be returned, it will still return that value even if you leave out the word return. Without the explicit return, Ruby will evaluate the if statement implicitly.
  ```
 
 ###  Question 11
@@ -108,7 +108,10 @@ Does Ruby require an explicit return from methods? Explain.
 Use shorthand to make this on one line.
 
  ```ruby
- # Your answer here
+ def person (age, name)
+   age = Number.new(:number)
+   name= String.new(:"first_name")
+
  ```
 
 ### Question 12
@@ -122,7 +125,7 @@ arr = [12, 34, 56, 67]
 Write your code below:
 
 ```ruby
-# Your answer here
+arr.pop $ arr = [56], [67]
 ```
 
 #### Part 2:
@@ -134,12 +137,13 @@ arr[arr.length + 2] = 99
 Write your answer below:
 
 ```text
-Your answer here
+arr = [12, 34, nil, nil, 99, nil, nil]
 ```
 
 #### Part 3:
 Using `.each` and `puts`, produce the output of the array values:
 
  ```ruby
-#  Your answer here
+arr.each
+do |i|
  ```
