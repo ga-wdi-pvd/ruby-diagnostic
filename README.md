@@ -15,21 +15,21 @@ or the language specified after them.
 What command you would use to run a script at `example.rb`?
 
  ```text
- Your answer here
+ puts or print
  ```
 
 ### Question 2
 What is the alternative command to `irb` you would use to run and debug Ruby in the REPL?
 
  ```text
- Your answer here
+ pry
  ```
 
 ### Question 3
 How would you assign a `star wars` variable with a value of `Rogue One: A Star Wars Story`?
 
  ```ruby
-# Your answer here
+star wars = "Rogue One: A Star Wars Story"
  ```
 
 ### Question 4
@@ -41,7 +41,7 @@ character = "Jar Jar Binks"
 Write your code below:
 
 ```ruby
-# Your answer here
+"blah , blah, blah,#{'@Jar Jar Binks'}, is really a Sith Lord."
 ```
 
 ###  Question 5
@@ -49,27 +49,28 @@ Write your code below:
 What is the type of object in Ruby for decimal numbers?
 
  ```text
- Your answer here
+Float
  ```
+
 #### Part 2:
 What is the type of object in Ruby for integer numbers?
 
  ```text
- Your answer here
+integer
  ```
 
 ###  Question 6
 Write an example of a decimal and an integer in Ruby. Replace the array values with your examples.
 
 ```ruby
-numbers = ["decimal", "integer"]
+numbers = [3.14, 7]
 ```
 
 ### Question 7
 What are the values that evaluate to "falsy" in Ruby?
 
  ```text
- Your answer here
+ False and nil
  ```
 
 ###  Question 8
@@ -87,20 +88,21 @@ end
 What will be the return value? Why?
 
  ```text
- Your answer here
+  The Dark Knight
  ```
+
 ###  Question 9
 What keyword would you use for "else if" clauses in Ruby?
 
  ```text
- Your answer here
+ elsif
  ```
 
 ###  Question 10
 Does Ruby require an explicit return from methods? Explain.
 
  ```text
- Your answer here
+ No. if there is no explicit command ruby returns the last command implicitly.
  ```
 
 ###  Question 11
@@ -108,8 +110,9 @@ Does Ruby require an explicit return from methods? Explain.
 Use shorthand to make this on one line.
 
  ```ruby
- # Your answer here
+ person = {age = 30, first_name = "Dave"}
  ```
+
 
 ### Question 12
 #### Part 1:
@@ -118,11 +121,10 @@ How would you remove the last two elements from the below array?
  ```ruby
 arr = [12, 34, 56, 67]
  ```
-
 Write your code below:
 
 ```ruby
-# Your answer here
+@arr.pop(56,67)
 ```
 
 #### Part 2:
@@ -134,12 +136,15 @@ arr[arr.length + 2] = 99
 Write your answer below:
 
 ```text
-Your answer here
+101
 ```
+
 
 #### Part 3:
 Using `.each` and `puts`, produce the output of the array values:
 
  ```ruby
-#  Your answer here
+arr.each do |arr|
+       puts arr
+   end
  ```
