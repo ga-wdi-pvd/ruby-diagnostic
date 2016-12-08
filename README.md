@@ -49,13 +49,13 @@ Write your code below:
 What is the type of object in Ruby for decimal numbers?
 
  ```text
-Fixum
+Float
  ```
 #### Part 2:
 What is the type of object in Ruby for integer numbers?
 
  ```text
-Float
+Fixnum
  ```
 
 ###  Question 6
